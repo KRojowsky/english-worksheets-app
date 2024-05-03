@@ -1,0 +1,32 @@
+@import '../../SassStyles/_variables';
+
+.hero {
+    margin-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $hero-bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &-text {
+        text-align: left;
+        max-width: 800px;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        p {
+            max-width: 500px;
+            margin: 10px 2px 20px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+    }
+
+    &-image img {
+        width: 600px;
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../SassStyles/_variables';
+
+.products {
+    margin: 80px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.product {
+    flex-basis: 24%;
+    margin-bottom: 20px;
+    background: $cards-bg-color;
+    border-radius: 3px;
+    img{
+        width: 100%;
+        border-radius: 3px;
+        padding: 10px;
+        display: block;
+    }
+
+    .description {
+        padding: 10px;
+
+        p:first-child {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}
