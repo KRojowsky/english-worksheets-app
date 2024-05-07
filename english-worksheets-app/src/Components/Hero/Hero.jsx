@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero container'>
       <div className='hero-text'>
         <h1>English worksheets</h1>
-        <p>Karty pracy z języka angielskiego oraz wiele innych materiałów edukacyjnych dostępnych od zaraz</p>
+        <p>Karty pracy z języka angielskiego oraz wiele innych materiałów doskonalących umiejętności językowe dostępnych od zaraz</p>
         <button className='btn'>Kup już teraz!</button>
       </div>
       <div className='hero-image'>

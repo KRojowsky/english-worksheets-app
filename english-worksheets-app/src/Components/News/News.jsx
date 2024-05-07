@@ -1,5 +1,5 @@
 import React from 'react';
-import './Products.scss';
+import '../Products/Products.scss';
 import worksheet from '../../assets/worksheet.png';
 
 const Products = () => {
@@ -7,49 +7,53 @@ const Products = () => {
     <div className='products'>
 
       <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
+        <div className="info-discount">
+          <p>PROMOCJA</p>
         </div>
         <img src={worksheet} alt="karta pracy" />
         <div className="description">
           <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
+          <p><s>Poprzednia cena: 14.99 zł</s></p>
+          <p>Aktualna cena: 14.99 zł</p>
           <p>id: cppipcj</p>
         </div>
       </div>
     
       <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
+        <div className="info-discount">
+          <p>PROMOCJA</p>
         </div>
         <img src={worksheet} alt="karta pracy" />
         <div className="description">
           <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
+          <p><s>Poprzednia cena: 14.99 zł</s></p>
+          <p>Aktualna cena: 14.99 zł</p>
           <p>id: cppipcj</p>
         </div>
       </div>
 
       <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
+        <div className="info-discount">
+          <p>PROMOCJA</p>
         </div>
         <img src={worksheet} alt="karta pracy" />
         <div className="description">
           <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
+          <p><s>Poprzednia cena: 14.99 zł</s></p>
+          <p>Aktualna cena: 14.99 zł</p>
           <p>id: cppipcj</p>
         </div>
       </div>
 
       <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
+        <div className="info-discount">
+          <p>PROMOCJA</p>
         </div>
         <img src={worksheet} alt="karta pracy" />
         <div className="description">
           <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
+          <p><s>Poprzednia cena: 14.99 zł</s></p>
+          <p>Aktualna cena: 14.99 zł</p>
           <p>id: cppipcj</p>
         </div>
       </div>

@@ -10,15 +10,41 @@
 }
 
 .product {
-    flex-basis: 24%;
+    flex-basis: 22%;
     margin-bottom: 20px;
     background: $cards-bg-color;
     border-radius: 3px;
+    position: relative;
+
     img{
         width: 100%;
         border-radius: 3px;
         padding: 10px;
         display: block;
+    }
+
+    .info{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 3px 6px;
+        margin: 15px;
+        background: $additional-info-color;
+        color: $white;
+        font-weight: 500;
+        border-radius: 3px;
+    }
+
+    .info-discount {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 3px 6px;
+        margin: 15px;
+        background: #17B169;
+        color: $white;
+        font-weight: 500;
+        border-radius: 3px;
     }
 
     .description {
