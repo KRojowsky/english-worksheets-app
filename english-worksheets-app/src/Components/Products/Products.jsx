@@ -1,60 +1,20 @@
 import React from 'react';
 import './Products.scss';
-import worksheet from '../../assets/worksheet.png';
+import data from '../../Products.json';
 
 const Products = () => {
   return (
     <div className='products'>
-
-      <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
+      {data.products.map((product,index) => (
+        <div className="product" key={index}>
+          <img src={product.image} alt="karta pracy" />
+          <div className="description">
+            <p>{product.description.topic}</p>
+            <p>{product.description.price}</p>
+            <p>{product.description.id}</p>
+          </div>
         </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-    
-      <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
-        </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-
-      <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
-        </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-
-      <div className="product">
-        <div className="info">
-          <p>NOWOŚĆ</p>
-        </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p>Cena: 14.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-
-
+      ))}
     </div>
   );
 }

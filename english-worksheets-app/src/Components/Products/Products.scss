@@ -10,49 +10,49 @@
 }
 
 .product {
-    flex-basis: 22%;
-    margin-bottom: 20px;
+    flex-basis: 23%;
     background: $cards-bg-color;
     border-radius: 3px;
     position: relative;
+    min-height: 635px;
 
     img{
         width: 100%;
         border-radius: 3px;
-        padding: 10px;
+        padding: 5px;
         display: block;
     }
 
-    .info{
+    .info-news, .info-discount{
         position: absolute;
         top: 0;
         right: 0;
         padding: 3px 6px;
-        margin: 15px;
-        background: $additional-info-color;
+        margin: 10px;
+        background: $news-info-bg-color;
         color: $white;
         font-weight: 500;
         border-radius: 3px;
     }
 
     .info-discount {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 3px 6px;
-        margin: 15px;
-        background: #17B169;
-        color: $white;
-        font-weight: 500;
-        border-radius: 3px;
+        background: $discount-info-bg-color;
     }
 
     .description {
         padding: 10px;
+        p{
 
-        p:first-child {
-            font-weight: bold;
-            font-size: 16px;
+            &:first-child {
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+
+            &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                font-weight: 500;
+                font-size: 15px;
+            }
         }
     }
 }

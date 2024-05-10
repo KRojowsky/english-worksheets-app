@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Czas Present Perfect & Present Continous",
+        "price": "Cena: 14.99 zł",
+        "id": "id: cppipcj"
+      },
+      "isNew": true,
+      "isDiscount": true
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Inny temat",
+        "price": "Cena: 19.99 zł",
+        "id": "id: innyid"
+      },
+      "isNew": true,
+      "isDiscount": false
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Jeszcze inny temat",
+        "price": "Cena: 24.99 zł",
+        "id": "id: jeszczeinnyid"
+      },
+      "isNew": true,
+      "isDiscount": true
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Jeszcze inny temat",
+        "price": "Cena: 24.99 zł",
+        "id": "id: jeszczeinnyid"
+      },
+      "isNew": true,
+      "isDiscount": true
+    }
+  ]
+}
