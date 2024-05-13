@@ -1,64 +1,26 @@
 import React from 'react';
 import '../Products/Products.scss';
-import worksheet from '../../assets/worksheet.png';
+import data from '../../Products.json';
 
 const Products = () => {
+  const discountProducts = data.products.filter(product => product.isDiscount === true)
+
   return (
-    <div className='products'>
-
-      <div className="product">
-        <div className="info-discount">
-          <p>PROMOCJA</p>
+    <div className='products' id='discounts'>
+      {discountProducts.map((product, index) => (
+        <div className="product" key={index}>
+          <div className="info-discount">
+            <p>PROMOCJA</p>
+          </div>
+          <img src={product.image} alt="karta pracy" />
+          <div className="description">
+            <p>{product.description.topic}</p>
+            <p><s>{product.description.discount}</s></p>
+            <p>{product.description.price}</p>
+            <p>{product.description.id}</p>
+          </div>
         </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p><s>Poprzednia cena: 14.99 zł</s></p>
-          <p>Aktualna cena: 9.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-    
-      <div className="product">
-        <div className="info-discount">
-          <p>PROMOCJA</p>
-        </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p><s>Poprzednia cena: 14.99 zł</s></p>
-          <p>Aktualna cena: 9.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-
-      <div className="product">
-        <div className="info-discount">
-          <p>PROMOCJA</p>
-        </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p><s>Poprzednia cena: 14.99 zł</s></p>
-          <p>Aktualna cena: <span>9.99 zł</span></p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-
-      <div className="product">
-        <div className="info-discount">
-          <p>PROMOCJA</p>
-        </div>
-        <img src={worksheet} alt="karta pracy" />
-        <div className="description">
-          <p>Czas Present Perfect & Present Continous</p>
-          <p><s>Poprzednia cena: 14.99 zł</s></p>
-          <p>Aktualna cena: 9.99 zł</p>
-          <p>id: cppipcj</p>
-        </div>
-      </div>
-
-
+      ))}
     </div>
   );
 }

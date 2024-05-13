@@ -1,0 +1,9 @@
+@import '../../SassStyles/_variables';
+
+.footer{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $font-color;
+    padding: 15px 0;
+}

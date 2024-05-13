@@ -37,6 +37,8 @@
                 list-style: none;
                 width: 50%;
                 padding: 20px;
+                display: flex;
+                align-items: stretch; 
 
                 .slide{
                     box-shadow: 0 0 20px rgba(0,0,0,0.1);

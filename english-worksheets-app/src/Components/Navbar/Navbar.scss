@@ -12,27 +12,31 @@ nav {
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-}
 
-.logo {
-    width: 250px;
-    font-size: 30px;
-}
+    .logo {
+        width: 250px;
+        font-size: 30px;
+    }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
+    ul {
+        margin: 0;
+        padding: 0;
 
-nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 16px;
-    font-weight: 500;
-
-    &:last-child {
-        margin-right: 0;
+        li {
+            display: inline-block;
+            list-style: none;
+            margin: 5px 20px;
+            font-size: 16px;
+            font-weight: 500;
+        
+            &:last-child {
+                margin-right: 0;
+            }
+            
+            &:not(:last-child):hover{
+                border-bottom: 1px solid $font-color;
+            }
+        }
     }
 }
 
@@ -40,4 +44,39 @@ nav ul li {
     background: $body-bg-color;
     transition: 1s;
     border-bottom: 1px solid $navbar-border-line-color;
+}
+
+@media (max-width: 1000px){
+    nav{
+        .logo{
+            width: 140px;
+        }
+
+        ul{
+            li{
+                margin: 10px 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 840px){
+    nav{
+        padding: 15px 0;
+        ul{
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: $body-bg-color;
+            z-index: -1;
+            width: 200px;
+            padding-top: 70px;
+            transition: .5s;
+            li{
+                display: block;
+                margin: 25px 25px;
+            }
+        }
+    }
 }

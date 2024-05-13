@@ -6,7 +6,7 @@ const News = () => {
   const newProducts = data.products.filter(product => product.isNew === true);
 
   return (
-    <div className='products'>
+    <div className='products' id='news'>
       {newProducts.map((product, index) => (
         <div className="product" key={index}>
           <div className="info-news">

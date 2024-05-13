@@ -4,6 +4,7 @@
       "image": "src/assets/worksheet.png",
       "description": {
         "topic": "Czas Present Perfect & Present Continous",
+        "discount": "Poprzednia cena: 29.99 zł",
         "price": "Cena: 14.99 zł",
         "id": "id: cppipcj"
       },
@@ -14,31 +15,78 @@
       "image": "src/assets/worksheet.png",
       "description": {
         "topic": "Inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
         "price": "Cena: 19.99 zł",
         "id": "id: innyid"
       },
       "isNew": true,
+      "isDiscount": true
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Jeszcze inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
+        "price": "Cena: 24.99 zł",
+        "id": "id: jeszczeinnyid"
+      },
+      "isNew": true,
+      "isDiscount": true
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Jeszcze inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
+        "price": "Cena: 24.99 zł",
+        "id": "id: jeszczeinnyid"
+      },
+      "isNew": true,
+      "isDiscount": true
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Jeszcze inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
+        "price": "Cena: 24.99 zł",
+        "id": "id: jeszczeinnyid"
+      },
+      "isNew": false,
       "isDiscount": false
     },
     {
       "image": "src/assets/worksheet.png",
       "description": {
         "topic": "Jeszcze inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
         "price": "Cena: 24.99 zł",
         "id": "id: jeszczeinnyid"
       },
-      "isNew": true,
-      "isDiscount": true
+      "isNew": false,
+      "isDiscount": false
     },
     {
       "image": "src/assets/worksheet.png",
       "description": {
         "topic": "Jeszcze inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
         "price": "Cena: 24.99 zł",
         "id": "id: jeszczeinnyid"
       },
-      "isNew": true,
-      "isDiscount": true
+      "isNew": false,
+      "isDiscount": false
+    },
+    {
+      "image": "src/assets/worksheet.png",
+      "description": {
+        "topic": "Jeszcze inny temat",
+        "discount": "Poprzednia cena: 29.99 zł",
+        "price": "Cena: 24.99 zł",
+        "id": "id: jeszczeinnyid"
+      },
+      "isNew": false,
+      "isDiscount": false
     }
   ]
 }

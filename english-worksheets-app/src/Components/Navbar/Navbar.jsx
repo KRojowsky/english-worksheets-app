@@ -1,5 +1,7 @@
 import React, { useEffect, useState} from 'react'
 import './Navbar.scss'
+import { Link } from "react-scroll";
+import menu from '../../assets/hamburger.png'
 
 const Navbar = () => {
 
@@ -14,14 +16,14 @@ const Navbar = () => {
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
       <div className='logo'>
-        <span>Emilia's missives</span>
+        <span><Link to='hero' smooth={true} offset={-100} duration={750}>Emilia's missives</Link></span>
       </div>
       <ul>
-        <li>O mnie</li>
-        <li>Nowości</li>
-        <li>Promocje</li>
-        <li>Wszystkie</li>
-        <li>Opinie</li>
+        <li><Link to='about' smooth={true} offset={-100} duration={750}>O mnie</Link></li>
+        <li><Link to='news' smooth={true} offset={-200} duration={750}>Nowości</Link></li>
+        <li><Link to='discounts' smooth={true} offset={-200} duration={750}>Promocje</Link></li>
+        <li><Link to='all' smooth={true} offset={-200} duration={750}>Wszystkie</Link></li>
+        <li><Link to='testimonials' smooth={true} offset={-250} duration={750}>Opinie</Link></li>
         <li><button className='btn'>Kup już teraz!</button></li>
       </ul>
     </nav>

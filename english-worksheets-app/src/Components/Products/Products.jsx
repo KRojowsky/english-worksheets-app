@@ -4,7 +4,7 @@ import data from '../../Products.json';
 
 const Products = () => {
   return (
-    <div className='products'>
+    <div className='products' id='all'>
       {data.products.map((product,index) => (
         <div className="product" key={index}>
           <img src={product.image} alt="karta pracy" />

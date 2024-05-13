@@ -7,6 +7,8 @@ import About from './Components/About/About'
 import News from './Components/News/News'
 import Discounts from './Components/Discounts/Discounts'
 import Testimonials from './Components/Testimonials/Testimonials'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Title subTitle='Opinie' title='Co mówią moi kupujący'/>
         <Testimonials/>
         <Title subTitle='Kontakt' title='Skontaktuj się ze mną w razie pytań'/>
+        <Contact/>
+        <Footer/>
       </div>
     </div>
   )
