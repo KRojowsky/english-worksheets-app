@@ -14,3 +14,17 @@
         text-transform: none;
     }
 }
+
+@media (max-width: 650px){
+    .title{
+        p{
+            font-size: 15px;
+        }
+
+        h2{
+            font-size: 22px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}

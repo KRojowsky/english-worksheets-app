@@ -1,6 +1,6 @@
 @import '../../SassStyles/_variables';
 
-.products {
+.products{
     margin: 50px auto;
     width: 100%;
     display: flex;
@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.product {
+.product{
     flex-basis: 23%;
     background: $cards-bg-color;
     border-radius: 3px;
@@ -21,6 +21,9 @@
         border-radius: 3px;
         padding: 5px;
         display: block;
+        cursor: pointer;
+        height: 450px;
+        object-fit: cover;
     }
 
     .info-news, .info-discount{
@@ -35,24 +38,86 @@
         border-radius: 3px;
     }
 
-    .info-discount {
+    .info-discount{
         background: $discount-info-bg-color;
     }
 
-    .description {
+    .description{
         padding: 10px;
         p{
 
-            &:first-child {
+            &:first-child{
                 font-weight: bold;
                 font-size: 14px;
-                margin-bottom: 15px;
+                margin-bottom: 25px;
             }
 
-            &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+            &:nth-child(2){
+                position: absolute;
                 font-weight: 500;
                 font-size: 15px;
+                bottom: 0;
+                right: 0;
+                padding: 5px 10px;
+            }
+
+            &:nth-child(3){
+                position: absolute;
+                font-weight: 700;
+                font-size: 15px;
+                bottom: 0;
+                left: 0;
+                padding: 5px 10px;
+                color: $discount-info-bg-color;
             }
         }
     }
+
+    @media (max-width: 1200px){
+        flex-basis: calc(33% - 10px);
+    }
+
+    @media (max-width: 768px){
+        flex-basis: calc(50% - 10px);
+    }
+
+    @media (max-width: 576px){
+        flex-basis: 100%;
+    }
+}
+
+.modal-overlay{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $product-view;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: $white;
+    border-radius: 3px;
+    position: relative;
+}
+
+.modal img{
+    max-width: 95vw;
+    max-height: 95vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    color: $product-view;
 }

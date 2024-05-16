@@ -1,6 +1,6 @@
 @import '../../SassStyles/_variables';
 
-.hero {
+.hero{
     margin-top: 50px;
     width: 100%;
     min-height: 100vh;
@@ -9,16 +9,16 @@
     align-items: center;
     justify-content: space-between;
     
-    &-text {
+    &-text{
         text-align: left;
         max-width: 800px;
 
-        h1 {
+        h1{
             font-size: 50px;
             font-weight: 600;
         }
 
-        p {
+        p{
             max-width: 500px;
             margin: 10px 2px 20px;
             font-weight: 500;
@@ -26,7 +26,42 @@
         }
     }
 
-    &-image img {
-        width: 620px;
+    &-image img{
+        max-width: 620px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 850px){
+    .hero{
+        &-text{
+            h1{
+                font-size:40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .hero{
+        flex-direction: column;
+        min-height: auto;
+        &-text{
+            text-align: center;
+            h1{
+                font-size:30px;
+            }
+
+            p{
+                font-size: 14px;
+            }
+        }
+
+        &-image{
+            order: -1;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
     }
 }

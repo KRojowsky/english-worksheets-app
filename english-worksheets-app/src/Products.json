@@ -1,89 +1,81 @@
 {
   "products": [
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet1.png",
       "description": {
         "topic": "Czas Present Perfect & Present Continous",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 14.99 zł",
-        "id": "id: cppipcj"
+        "discount": "29.99 zł",
+        "price": "Cena: 14.99 zł"
       },
       "isNew": true,
       "isDiscount": true
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet2.png",
       "description": {
-        "topic": "Inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 19.99 zł",
-        "id": "id: innyid"
+        "topic": "Tłumaczenie fragmentów",
+        "discount": "29.99 zł",
+        "price": "Cena: 19.99 zł"
       },
       "isNew": true,
       "isDiscount": true
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet3.png",
       "description": {
-        "topic": "Jeszcze inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 24.99 zł",
-        "id": "id: jeszczeinnyid"
+        "topic": "Check yourself - czasy teraźniejsze",
+        "discount": "29.99 zł",
+        "price": "Cena: 24.99 zł"
       },
       "isNew": true,
       "isDiscount": true
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet4.png",
       "description": {
-        "topic": "Jeszcze inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 24.99 zł",
-        "id": "id: jeszczeinnyid"
+        "topic": "Daily tasks",
+        "discount": "29.99 zł",
+        "price": "Cena: 24.99 zł"
       },
       "isNew": true,
       "isDiscount": true
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet5.png",
       "description": {
         "topic": "Jeszcze inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 24.99 zł",
-        "id": "id: jeszczeinnyid"
+        "discount": "29.99 zł",
+        "price": "Cena: 24.99 zł"
       },
       "isNew": false,
       "isDiscount": false
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet6.png",
       "description": {
         "topic": "Jeszcze inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 24.99 zł",
-        "id": "id: jeszczeinnyid"
+        "discount": "29.99 zł",
+        "price": "Cena: 24.99 zł"
       },
       "isNew": false,
       "isDiscount": false
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet1.png",
       "description": {
         "topic": "Jeszcze inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 24.99 zł",
-        "id": "id: jeszczeinnyid"
+        "discount": "29.99 zł",
+        "price": "Cena: 24.99 zł"
       },
       "isNew": false,
       "isDiscount": false
     },
     {
-      "image": "src/assets/worksheet.png",
+      "image": "src/assets/worksheet2.png",
       "description": {
         "topic": "Jeszcze inny temat",
-        "discount": "Poprzednia cena: 29.99 zł",
-        "price": "Cena: 24.99 zł",
-        "id": "id: jeszczeinnyid"
+        "discount": "29.99 zł",
+        "price": "Cena: 24.99 zł"
       },
       "isNew": false,
       "isDiscount": false

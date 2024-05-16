@@ -11,7 +11,7 @@ const Testimonials = () => {
   let tx = 0;
 
   const slideForward = () => {
-    if(tx > -50){
+    if(tx >= -50){
       tx -= 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;

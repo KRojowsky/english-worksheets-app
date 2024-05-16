@@ -4,7 +4,6 @@
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
-    width:100%;
 
     .next-btn, .back-btn {
         position: absolute;
@@ -65,4 +64,58 @@
             }
         }
     }
+}
+
+@media (max-width: 900px){
+    .testimonials{
+        padding: 0 40px;
+
+        .next-btn, .back-btn{
+            padding: 10px;
+            width: 35px;
+        }
+        .slider{
+            ul{
+                li{
+                    padding: 15px;
+                    .slide{
+                        padding:10px;
+                        
+                        img{
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
+
+@media (max-width: 650px){
+    .testimonials {
+        .slider{
+            ul{
+                width: 400%;
+                li{
+                    .slide{
+                        .user-info{
+                            display: block;
+                            margin-bottom: 10px;
+                            font-size: 12px;
+                            h3{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    
 }
